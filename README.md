@@ -5,7 +5,7 @@
 1. Setup you fNIRS equipment
 2. Download and install Aurora (Free)
 3. Download and install MATLAB (2022a or newer)
-4. Run Aurora then Run MATLAB with run_exp_HbR_BJ.m this will stream all of your fNIRS data via OSC to wherever you would like to collect it 
+4. Run Aurora then Run MATLAB with run_exp_HbR_BJ.m this will stream all of your fNIRS data via OSC (local host, port:8888) to wherever you would like to collect it 
 
 BrAIn Jam - fNIRS best practices
 
