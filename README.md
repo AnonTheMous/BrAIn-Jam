@@ -2,7 +2,12 @@
 
 **This README outlines the motivation and code to run your own fNIRS-based classifcation. Here are best practices in neuroscience pertaining to fNIRS and justifications for this. Through this repository we aim to make fNIRS research in HCI more formailzed and accessible. Enjoy!**
 
-BrAIn Jam
+1. Setup you fNIRS equipment
+2. Download and install Aurora (Free)
+3. Download and install MATLAB (2022a or newer)
+4. Run Aurora then Run MATLAB with run_exp.mat this will stream all of your fNIRS data via OSC to wherever you would like to collect it 
+
+BrAIn Jam - fNIRS best practices
 
 Functional near-infrared spectroscopy (fNIRS):
 fNIRS systems can employ different techniques of illumination (Gervain, 2015), with continuous-wave (CW) fNIRS representing the most frequently adopted approach in cognitive neuroscience, whereby near-infrared light at two or three different wavelengths is constantly emitted from sources into the scalp and the light that the detectors collect index changes in concentrations of oxygenated (ΔHbO2) and deoxygenated (ΔHbR) hemoglobin in the brain. These local changes in concentrations of HbO2 and HbR in the brain are computed from light intensities at these wavelengths using the modified Beer-Lambert Law (Delpy et al., 1988; Kocsis, Herman, & Eke, 2006), which has long been used to account for light absorption and scattering in biological tissue: ∆A = ∆ c · ε · d · B, where A is light attenuation, ε is the absorption coefficient of the chromophore (e.g., HbR), c is the concentration of the chromophore, d is the distance between the points where light enters and leaves the tissue (~3cm), and B is the differential pathlength factor (DPF) for the effect of scattering on pathlength. Pairs of emitters (i.e., sources) and detectors form multiple NIRS channels. 
