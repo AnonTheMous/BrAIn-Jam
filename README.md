@@ -1,6 +1,6 @@
 # BrAIn-Jam
 
-#This README outlines the motivation and code to run your own fNIRS-based classifcation. Here are best practices in neuroscience pertaining to fNIRS and justifications for this. Through this repository we aim to make fNIRS research in HCI more formailzed and accessible. Enjoy!
+**This README outlines the motivation and code to run your own fNIRS-based classifcation. Here are best practices in neuroscience pertaining to fNIRS and justifications for this. Through this repository we aim to make fNIRS research in HCI more formailzed and accessible. Enjoy!**
 
 BrAIn Jam
 
